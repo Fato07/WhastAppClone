@@ -14,13 +14,17 @@ function SideBar() {
 
     
     useEffect(() => {
-        db.collection("rooms").onSnapshot((snapShot) => setRooms(
+        const unsuscribe = db.collection("rooms").onSnapshot((snapShot) => setRooms(
                 snapShot.docs.map((doc) => ({
                     id: doc.id,
                     data: doc.data(),
                 }))
             )    
-        );
+        ); 
+
+        return () => {
+            unsuscribe();
+        };
     }, []);
 
     
