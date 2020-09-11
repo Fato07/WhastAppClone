@@ -5,6 +5,7 @@ import Chat from './common/Chat'
 
 function App() {
   return (
+
     //BEM Naming Covention
     <div className="app" >
       <h1>WhatsApp</h1>
