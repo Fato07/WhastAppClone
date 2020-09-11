@@ -8,11 +8,12 @@ import {
   Route
 } from "react-router-dom";
 import Login from './common/Login';
+import { useStateValue } from './StateProvider';
 
 function App() {
-  const [user, setuser] = useState(null)
-  return (
+  const [{user}, dispatch] = useStateValue();
 
+  return (
     //BEM Naming Covention
     <div className="app" >
       {!user ? (
