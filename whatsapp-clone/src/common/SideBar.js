@@ -12,7 +12,7 @@ import { useStateValue } from '../StateProvider';
 function SideBar() {
 
     const [rooms, setRooms] = useState([]);
-    const [{ user }, dispatch] = useStateValue();
+    const [{ user}] = useStateValue();
 
 
 
