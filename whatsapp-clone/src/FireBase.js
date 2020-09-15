@@ -1,8 +1,4 @@
-//import firebase from "firebase";
-import "firebase/auth";
-//import "firebase/firestore";
-
-const firebase = require("firebase");
+const firebase = require("firebase/app");
 require("firebase/auth");
 require("firebase/firestore");
 

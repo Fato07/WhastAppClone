@@ -83,7 +83,7 @@ function Chat() {
                         <span className="chat__name">
                             {message.name}</span>
                             {message.message}
-                        <span className="chat__timestamp">{new Date(message.timestamp?.toDate()).toUTCString()}</span>
+                        <span className="chat__timestamp">{new Date(message.timestamp?.toDate()).toUTCString().slice(5,12) + (new Date(message.timestamp?.toDate()).toUTCString()).slice(17,22)}</span>
                     </p>
                 ))}
             </div>
