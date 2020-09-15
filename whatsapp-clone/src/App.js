@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Login from './common/Login';
 import { useStateValue } from './StateProvider';
+import Footer from "./Footer";
 
 function App() {
   const [{user}, dispatch] = useStateValue();
@@ -33,6 +34,7 @@ function App() {
             </Router>
           </div>
         )}
+      <Footer />
     </div>
   );
 }
