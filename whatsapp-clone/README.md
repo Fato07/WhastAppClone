@@ -11,7 +11,7 @@
   </p>
 </p>
 
-[![Site preview](../whatsapp-clone/public/social-img.png)](https://whatsapp-clone-bd456.web.app/)
+[![Site preview](../../WhastAppClone/whatsapp-clone/public/social-img.png)](https://whatsapp-clone-bd456.web.app/)
 
 ## Technology Stack 🛠️
 
