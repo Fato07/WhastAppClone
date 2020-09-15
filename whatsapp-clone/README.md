@@ -22,4 +22,5 @@ Dependencies defined in package.json:
 - [ ] Voice Recording Feature.
 - [ ] Upload Files and Media
 - [ ] search feature in chats
-- [ ] Profile Section
+- [ ] Profile Section.
+- [ ] Footer for my profile.
