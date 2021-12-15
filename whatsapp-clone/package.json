@@ -13,8 +13,12 @@
 <<<<<<< HEAD
     "react-scripts": "4.0.0"
 =======
+<<<<<<< HEAD
+    "react-scripts": "4.0.0"
+=======
     "react-scripts": "5.0.0"
 >>>>>>> 91f87f213b1a2f4ea316cfca3814be49cad9ebce
+>>>>>>> master
   },
   "scripts": {
     "start": "react-scripts start",
